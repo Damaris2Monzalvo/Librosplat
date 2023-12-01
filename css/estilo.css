@@ -1,0 +1,196 @@
+body{ 
+background-color: rgb(250, 210, 247);
+}
+
+.container-fluid{ 
+    background-color: rgb(230, 115, 210);
+    margin: 2px;
+    border-radius: 90px;
+}
+
+
+
+.marg{
+margin-left: 30px;
+color: rgb(7, 7, 7);
+font-family: Verdana;
+font-size: 2vw;
+}
+
+.anuncios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.presenta{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+
+.barradias{
+    background-color: rgb(238, 148, 223);
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 3vw;
+}
+
+.dias{
+    margin-right: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 0.90vw;
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pococard{
+margin-top: 15px;
+}
+
+
+.dias:hover{
+    font-size: 1vw;
+}
+
+.marg:hover{
+    font-size: 2.5vw;
+}
+
+.logo:hover{
+    width: 70px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.cardper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 156, 243);
+    margin: 20px;
+}
+
+#nuevas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#populares{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardinfo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2vw;
+    
+}
+
+p{
+    font-family:'Times New Roman';
+    font-size: 1vw;
+    display:flex ;
+    justify-content: flex-start;
+}
+
+b{
+    font-family:serif;
+    font-size: 0.9vw;
+}
+
+i{
+    font-family:serif;
+    font-size: 0.9vw;
+}
+
+h3{
+    font-family: 'Lucida Sans';
+    font-size: 1.5vw;
+}
+
+h4{
+    font-family: 'Lucida Sans';
+    font-size: 2vw;
+    display:flex ;
+    justify-content: center;
+}
+
+
+
+.infolib{
+    font-family: 'Lucida Sans';
+    font-size: 1vw; 
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    font-family: 'Lucida Sans';
+    font-size: 1vw; 
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: Cambria, Cochin;
+    font-size: 2vw;
+    display:flex ;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: rgb(238, 148, 223);
+    border-color: rgb(204, 71, 182);
+    margin-top: 7px;
+    margin-left: 7px;
+    font-family: 'Gill Sans'
+
+}
+
+.button:hover{
+    background-color: rgb(175, 81, 187);
+    border-color: rgb(175, 81, 187);
+    font-family: 'Gill Sans'
+}
