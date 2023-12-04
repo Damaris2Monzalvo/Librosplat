@@ -9,7 +9,8 @@ $(document).ready(
             minlength: 2
         });
         
-
+        $('.cardper').hide()
+    
 
         $('btnbusqueda').click (
             function() {
