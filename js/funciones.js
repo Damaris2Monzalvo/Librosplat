@@ -9,57 +9,6 @@ $(document).ready(
             minlength: 2
         });
         
-        $('.cardper').hide()
-    
-        $('#btnromance').click(
-            function() {
-                $('.card').hide();
-            $('.amor').show();
-            }
-            );
-
-            $('#btnsobrenatural').click(
-                function() {
-                    $('.card').hide();
-                $('.sobrenatural').show();
-                }
-                );
-
-                $('#btnadulto').click(
-                    function() {
-                        $('.card').hide();
-                    $('.adulto').show();
-                    }
-                    );
-
-
-                    $('#btnamor').click(
-                        function() {
-                            $('.cardper').hide();
-                        $('.amar').show();
-                        }
-                        );
-
-                        $('#btndistopia').click(
-                            function() {
-                                $('.cardper').hide();
-                            $('.distopia').show();
-                            }
-                            );
-
-                            $('#btnjoven').click(
-                                function() {
-                                    $('.cardper').hide();
-                                $('.adulto').show();
-                                }
-                                );
-
-                                $('#btnfantasia').click(
-                                    function() {
-                                        $('.cardper').hide();
-                                    $('.fantasia').show();
-                                    }
-                                    );
 
 
         $('btnbusqueda').click (
