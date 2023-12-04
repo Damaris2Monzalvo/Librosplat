@@ -6,7 +6,7 @@ $(document).ready(
         
         $( "#palabra" ).autocomplete({
             source: personajes,
-            minlength: 2
+            minlength: 3
         });
         
         $('.cardper').hide()
