@@ -4,9 +4,9 @@ $(document).ready(
 
         let personajes=["romance", "fantasia", "adulto", "distopia", "KayhurkaRhea"]
         
-        $( "#palabra" ).autocomplete({
+        $( ".palabra" ).autocomplete({
             source: personajes,
-            minlength: 3
+            minlength: 2
         });
         
         $('.cardper').hide()
@@ -15,37 +15,36 @@ $(document).ready(
         $('btnbusqueda').click (
             function() {
 
-        let personaje= document.getElementById ('palabra').value 
+        let personaje=document.getElementsByClassName ('palabra').value 
 
-        if(personaje== "romance"){
+        if(personaje=="romance"){
             $('.cardper').hide();
-            $('#romance').show();
+            $('.romance').show();
         }
 
 
-        if(personaje== "fantasia"){
+        if(personaje=="fantasia"){
             $('.cardper').hide();
-            $('#fantasia').show();
+            $('.fantasia').show();
         }
 
 
-        if(personaje== "adulto"){
+        if(personaje=="adulto"){
             $('.cardper').hide();
-            $('#adulto').show();
+            $('.adulto').show();
         }
 
 
-        if(personaje== "distopia"){
+        if(personaje=="distopia"){
             $('.cardper').hide();
-            $('#distopia').show();
+            $('.distopia').show();
         }
 
 
-        if(personaje== "KayhurkaRhea"){
+        if(personaje=="KayhurkaRhea"){
             $('.cardper').hide();
-            $('#KayhurkaRhea').show();
+            $('.KayhurkaRhea').show();
         }
-
 
 
             }
