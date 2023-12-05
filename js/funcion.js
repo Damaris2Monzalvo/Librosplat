@@ -2,7 +2,7 @@ $(document).ready(
     function() {
 
 
-        let personajes=["romance", "fantasia", "adulto", "distopia", "KayhurkaRhea", "sobrenatural"];
+        let personajes=["romance", "fantasia", "adulto", "distopia", "KayhurkaRhea",];
         
         $( "#palabra" ).autocomplete({
             source: personajes,
