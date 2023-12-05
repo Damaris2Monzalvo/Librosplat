@@ -2,7 +2,7 @@ $(document).ready(
     function() {
 
 
-        let personajes=["romance", "fantasia", "adulto", "distopia", "KayhurkaRhea"];
+        let personajes=["romance", "fantasia", "adulto", "distopia", "KayhurkaRhea", "sobrenatural"];
         
         $( "#palabra" ).autocomplete({
             source: personajes,
@@ -15,7 +15,7 @@ $(document).ready(
         $('#btnbusqueda').click (
             function() {
 
-        let personaje=document.getElementsById ('palabra').value;
+        let personaje=document.getElementById('palabra').value;
 
         if(personaje=="romance"){
             $('.cardper').hide();
@@ -50,3 +50,4 @@ $(document).ready(
             });
 
     });
+    
