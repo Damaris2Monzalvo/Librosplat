@@ -9,10 +9,10 @@ $(document).ready(
             minlength: 2
         });
         
-        $('.cardper').hide()
+        $('.cardper').hide();
     
 
-        $('btnbusqueda').click (
+        $('#btnbusqueda').click (
             function() {
 
         let personaje=document.getElementsById ('palabra').value;
@@ -47,9 +47,6 @@ $(document).ready(
         }
 
 
-            }
-        );
+            });
 
-    }
-
-);
+    });
